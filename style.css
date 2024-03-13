@@ -10,7 +10,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url("bg.jpeg");
+    background-image: url("restaurant-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;

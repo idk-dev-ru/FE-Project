@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "file": "${file}",
+            "name": "Html: File",
+            "request": "launch",
+            "type": "chrome"
+        }
+    ],
+    "version": "0.2.0"
+}
