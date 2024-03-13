@@ -3,4 +3,42 @@
 
 * {
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.navs a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.276);
+    color: #fff;
 }
