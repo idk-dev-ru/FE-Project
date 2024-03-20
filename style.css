@@ -22,6 +22,7 @@ body {
     width: 80%;
     display: flex;
     margin: auto;
+    flex-direction: column;
 }
 
 .header {
@@ -44,9 +45,17 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .header_name {
     font-family: "Unbounded", sans-serif;
     font-weight: 700;
+}
+
+.main img {
+    height: 30%;
 }
