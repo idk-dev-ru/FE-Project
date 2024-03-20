@@ -7,12 +7,13 @@
     font-style: normal;
     padding: 0;
     margin: 0;
+    color: white
 }
 
 body {
     display: flex;
     justify-content: center;
-    background-image: url("restaurant-bg.jpg");
+    background-color: #2b2d31;
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
@@ -36,18 +37,22 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: #313338;
     padding: 0 20px;
+    box-shadow: 0 3.5px 2px -2px #252525;
+    z-index: 2;
 }
 
 .header .title {
     font-family: "Unbounded", sans-serif;
     font-weight: 700;
+    color: white;
 }
 
 .main {
     display: flex;
     align-items: center;
-    background-color: azure;
+    background-color: #313338;
     padding: 1rem;
+    z-index: 1;
 }
