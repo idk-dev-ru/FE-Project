@@ -25,37 +25,29 @@ body {
     flex-direction: column;
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(43, 43, 43);
-    color: #fff;
-    padding: 10px 30px;
-}
-
 .navs a {
     color: #fff;
     text-decoration: none;
 }
 
-.main {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    padding: 2em;
+
+.header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 0 20px;
 }
 
-.header_name {
+.header .title {
     font-family: "Unbounded", sans-serif;
     font-weight: 700;
 }
 
-.main img {
-    height: 30%;
+.main {
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    padding: 1rem;
 }
