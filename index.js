@@ -1,2 +1,5 @@
 // Я ненавижу JavaScript. © HappyUnicorn
-u�Z
+let main_div = document.querySelector(".main")
+setTimeout(function(){
+    main_div.style.display = "none"
+}, "3000")
