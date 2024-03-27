@@ -1,1 +1,2 @@
-u�Z
+// Я ненавижу JavaScript. © HappyUnicorn
+u�Z
